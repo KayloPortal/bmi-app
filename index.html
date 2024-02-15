@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/landing.css" />
+    <title>BMI App</title>
+  </head>
+  <body>
+    <main>
+      <!-- flex | grid -->
+      <section class="hero">
+        <div class="hero-container | container">
+          <div class="hero-texts">
+            <img
+              class="hero-texts__icon"
+              src="/images/logo.svg.svg"
+              alt="logo"
+            />
+            <h1
+              class="hero-texts__heading | fw-medium clr-neutral-800 fs-700 fs-600-m fs-600-s"
+            >
+              Body Mass Index Calculator
+            </h1>
+            <p class="hero-texts__desc | clr-neutral-700 fs-200">
+              Better understand your weight in relation to your height using our
+              body mass index (BM) calculator. While BMI is not the sole
+              determinant of a healthy weight, it offers a valuable starting
+              point to evaluate your overall health and well-being.
+            </p>
+          </div>
+          <div class="bmi-form">
+            <p class="">Enter your details below</p>
+            <form action="">
+              <fieldset>
+                <div>
+                  <input
+                    type="radio"
+                    id="metric"
+                    name="metric"
+                    value="metric"
+                  />
+                  <label for="metric">Metric</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="imperial"
+                    name="metric"
+                    value="imperial"
+                  />
+                  <label for="imperial">Imperial</label>
+                </div>
+              </fieldset>
+              <div>
+                <label for="height">Height</label>
+                <input type="number" name="height" />
+                <p class="">cm</p>
+              </div>
+              <div>
+                <label for="weight">Weight</label>
+                <input type="number" name="weight" />
+                <p class="">kg</p>
+              </div>
+            </form>
+            <div>
+              <p>Welcome!</p>
+              <p>Enter your height and weight and you’ll see your BMI result here</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+  </body>
+</html>
